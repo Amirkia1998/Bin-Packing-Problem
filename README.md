@@ -50,7 +50,7 @@ The robot design underwent extensive testing to ensure its efficiency and reliab
 
 The project directory is organized into two main folders:
 
-1. **hyperpack-main:** This folder contains the library used for the optimization algorithm, namely HyperPack. It encapsulates the core optimization functionality utilized in the project.
+1. **hyperpack:** This folder contains the library used for the optimization algorithm, namely HyperPack. It encapsulates the core optimization functionality utilized in the project.
 
 2. **main:** This folder is the primary workspace for the project and consists of the following components:
 - **data folder:** Contains input data files that can be modified within the `main.py` script to test different scenarios. The file path is adjustable in the code using the following snippet:
