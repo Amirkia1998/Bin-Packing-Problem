@@ -3,7 +3,7 @@
 ## Description
 
 The project addresses the optimization challenge in logistics and packaging industries, focusing on efficiently placing two-dimensional objects within a designated space. The optimization algorithm aims to minimize wasted space, reduce resource usage, and cut additional costs. The project incorporates a three-axis robot for cutting or drawing, enhancing safety and reducing workload in specified areas. 
-For photos and more details, read the Report availaible in this repository.
+For photos and more details, read the Report.pdf availaible in this repository.
 
 ## Contribution
 
