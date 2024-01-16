@@ -8,19 +8,19 @@ For photos and more details, read the Report.pdf availaible in this repository.
 ## Contribution
 
 My primary contribution to this project involved the development of an optimization algorithm and Python code. Specifically:
-- Developed an algorithm using the [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack) library to solve the optimization problem efficiently.
+- Developed an algorithm using the [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack) library to solve the optimization problem efficiently.
 - Implemented Python code to read input data, execute the optimization process, and generate Gcode.
 - Utilized the generated Gcode to instruct a three-axis robot for drawing partitions.
 
 ## Algorithm Design
 
-The algorithm design is a critical aspect of the project, aiming to develop optimization software that efficiently arranges two-dimensional objects in a specified area. The chosen algorithm, [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack), ensures minimal area coverage by the objects.
+The algorithm design is a critical aspect of the project, aiming to develop optimization software that efficiently arranges two-dimensional objects in a specified area. The chosen algorithm, [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack), ensures minimal area coverage by the objects.
 
 ### Literature Review
-The algorithm design began with a comprehensive literature review, examining various methods to optimize the placement of objects. The [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack) algorithm was chosen based on its effectiveness in minimizing wasted space.
+The algorithm design began with a comprehensive literature review, examining various methods to optimize the placement of objects. The [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack) algorithm was chosen based on its effectiveness in minimizing wasted space.
 
 ### Implementation
-The implementation involved coding the optimization software using Arduino Uno and CNC shield technologies. The [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack) algorithm was integrated to provide precise pencil movements in the X and Y axes, synchronizing with the stepper motors.
+The implementation involved coding the optimization software using Arduino Uno and CNC shield technologies. The [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack) algorithm was integrated to provide precise pencil movements in the X and Y axes, synchronizing with the stepper motors.
 
 ### Testing and Results
 Extensive testing was conducted using different data sets, including the Hopper-Turton Test Data Set (Class C). The algorithm's success rates, time spent in the insertion process, and the number of excluded shapes were measured over multiple repetitions. The HyperPack algorithm consistently demonstrated high success rates across various data sets.
@@ -76,5 +76,5 @@ The data folder also stores the output file, which includes the results such as 
 
 ## Acknowledgments
 - I would like to extend my sincere appreciation to the students who played a pivotal role in the design and implementation of the three-axis robot for this project. 
-- A special acknowledgment goes to the creators and contributors of the [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack) optimization algorithm. The project heavily relies on the efficiency and robustness of [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack) for solving the package placement problem. We are grateful for the valuable contribution of the [Hyperpak](https://github.com/AlkiviadisAleiferis/hyperpack) library to the field of optimization.
+- A special acknowledgment goes to the creators and contributors of the [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack) optimization algorithm. The project heavily relies on the efficiency and robustness of [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack) for solving the package placement problem. We are grateful for the valuable contribution of the [Hyperpack](https://github.com/AlkiviadisAleiferis/hyperpack) library to the field of optimization.
 
